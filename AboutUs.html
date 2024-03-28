@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>About Us</title>
+    <style>
+       body {
+            background-color: rgb(78, 48, 48)
+        }
+       .navbar {
+            background-color: rgb(88, 4, 4) !important;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        .text-transition {
+    padding-left: 50px;
+    font-size: large;
+    color: black;
+    transition: color 0.3s ease; /* Apply transition effect on color change */
+  }
+
+  .text-transition:hover {
+    color: white; /* Change text color to white on hover */
+  }
+    </style>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="#" style="color: #fffefe; ; "><b>Culture&Country</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explore
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="">Pakistan</a></li>
+                <li><a class="dropdown-item" href="">Türkiye</a></li>
+                <li><a class="dropdown-item" href="">Japan</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" style="margin-right: 2%;">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" style="
+            cursor: pointer;
+            background: #383838;
+            color: #fff;
+            ">Search</button>
+          </form>
+      </div>
+    </nav>
+    <h1 style="padding-left: 50px; padding-top: 50px; color: black; text-decoration: underline;"><b>About Us</b></h1>
+    
+    <p class="text-transition">Welcome to our website! Culture and countries are intricately woven threads in the rich tapestry of human existence. Each country's culture is a unique expression of its history, traditions, beliefs, and values, shaping the identity of its people. Culture encompasses a vast spectrum of elements, including language, art, cuisine, customs, rituals, and social norms. It serves as a dynamic force that not only binds communities together but also distinguishes them from one another.
+
+      Countries, often defined by geographical boundaries, are home to diverse cultures that have evolved over centuries. This diversity fosters a vibrant global mosaic, where each nation contributes a distinctive hue to the collective portrait of humanity. Exploring the cultural landscape of different countries allows us to appreciate the beauty of human creativity and resilience.</p>
+    <h2 style="padding-left: 50px; color: black; text-decoration: underline;"><b>Connect with Us</b></h2>
+    
+    <div class="social-icons" style="padding: 20px;">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="https://w7.pngwing.com/pngs/282/704/png-transparent-facebook-messenger-logo-icon-facebook-facebook-logo-blue-text-trademark-thumbnail.png" alt="Facebook">
+        </a>
+        
+        <!-- Instagram -->
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=626&ext=jpg&ga=GA1.1.365341780.1702725811&semt=ais" alt="Instagram">
+        </a>
+    
+        <!-- Twiter -->
+        <a href="https://twitter.com/?lang=en" target="_blank">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEUAAAD////CwsLq6ur39/fz8/P6+vrv7+9GRkbW1tY+Pj6qqqrh4eEaGhrk5OTLy8vQ0NBra2thYWGKiop7e3uwsLAhISG+vr6jo6NmZmaVlZUoKCguLi40NDRzc3NaWlqQkJCenp4SEhJBQUFQUFCEhIQcHBxbW1u2trZVS6VeAAAHA0lEQVR4nO2d61ZTMRCFLa1FEQVRuanYAirv/4QuZTV7yJxMk5M0F9f+fnpozqRNMrMnk/jqFSGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghWVwf7efsptDLLtDkplCT+3mziKHMu76jweMyLUZxG9PDsyKveu3aW78v0mAkpzFd/Fz2RW8KNBfP16hx+iv7PWdo7GMBs1P4GdPDt7lvuUZbtyWsTuI8poubvHeIr/GphM1pvI8ap99yXnGBds5LmZ3CnXu97wqvYNlpxguEn1gWszqJo937v/hPNrBtO7v5e/iJVVU/IVjtLFDL3Ft0cfYa/wFtnOTZOR83T9b33hMxSecOMOEnSsV/M3gKLgSYpHoMR/EODXzKtjOD450VP/0nYrX5MaPhT7nfUCkenR3KLbhJunid3m5rPyFwg+mD/+QHjLxKbfUBn1XtVme5M0W5BTGTEkPKe/z+K38Nq8+JM+bRf7REF9Pa7MFPCJxUVNMNnU+TiiLivShnZwZOwangWIQ2CVLxCz7V1E+Ab+HpJkKb6LhLfC3vyho6H+e71v6TS1gbKxVvZg7tw3IetEmENnEjTuS4cmRJaX45q1RocwSLY6Ti/dr9+eoAhs4HP9VX/xFcW8xvIhzM9wPYmcFZsBu/YfN+qSj8xO+D2JnBOtgNsfg/7GnkCX+qhntzsAQqxYuRt0cq9ugnBO77V6n3k0jDxbp7dDg7M3BZFRXaiC0AQyp26icEUEsqmERoE5aKl+uIP2qMU0tWaBNM7Ao/oTxON7iUhgptPsP8QFZJRLBzkh6VgDJXaz0SZ+oH/ofI6pTYsDoYW2fmpf8Ioc3UOinWousKdmbgpKIV2ugfqXs/AbDToPbCRGjjp16QsOvVTwiQ5jRCG08qipW25kb9XNyaqCI0kSF8KRWP8SBrL64S2LBQqerb6Z4IP6GydV0C16dCGxQdiOk2ip8QONenRLqobnAL0Rb/Nn+nsTYuwLRCmwf1L8mp/3Z8DA87hDbPC5HwE9llGzXB1FJJUoQ2f6UiMq1D+AnBKvjDiF2zR+kn1v3qiUkgFVVog1TM8Xh+QoAQTe0dIbRBqcXiroWRebjxp0KbqcLN+gVd+aAfKrTZqg42KOgqAPqhJLtfuDmUnxC4flihzeQ4HgVIRSVqXxZu5tegtgIZbCO0qV34Wxa4OxXaIDfaeVrGBlJRrSVio3ewYOYlEA4b/xFCm/4zMxaYb2q7EyHpiO4ehF2CCG16KAqaDRKhal9tO75D/AekohHa9LgdGo+TimrLTMjf4bSTBFLRCG0GE/gekIpKBKLyYkx1sQN+wQht+qhBnAn8ggptkJXrqwAqFZzO2viPsNT2vqtmg5JfI7QZMFUDIBVVWTpSwupQylBAKirnjiHc+tRBHpCKyrljCI+y9TQJ4lMV2oiszcBSUWz/6i0mbIyPmnR7Ufg7tWgitBlWKi4XL1CLJh4NKhX9I9FqMGKWtj/kNIenhY+q2kdoM2LqbaM6OFFUgm2o8dKnCK4XcIpGaDOcVBR+4lSMVzUYcZKv7YnRZLzCX8TZRmjTcXnpBMJP/J17xmBEdN5tDfQUYqP++YAI4mwjtBlIKgo/sYuqMRjVSb7z8KNemSr8xWDUehCP6to5m+nCX3TbuKSgo4OHBqEDIkh1Gyf5RpCKwcJf8UBlbRDaqEr4/vD8hACpbrV1iAR5/1LRKujCommENpsaVmZgFv7eG73HT9/ZEVKPLfowVfiLRdM4ydf17rfwE9OFv1g0jUsKOi6Kjij8RSGtOuiFGbzvTG0zRHowKPZQSKtCG8zSbne/xQGRcAIUIasR2nS6+y0qD63Na3wPRmjT5e537AERMVnD9y/1KBW3MHzPWgipaIQ2/Z3BSDkgsgx/FwhtepOKSQdExDH98Em+zqSiqJCJWekhFY3Qpi+pKI4XRKkfLLvGJQU9ScXkG39FbGCENv1USYu7dmLXB+TXjEsKupGKs278hVQ07l/aFLQyA+EnEkq4cP2Snm8YE13sfovj9kmjSgitcGjTg1Scf+MvCqVVPyBAOpCK4mb41KVvFe6HcQKuNjk3w18Ynw2fgKtM3s3wUCPGJQVtpaK4p3Qz5/OQikZo01IqZt8ML+L18CUFDaVigRt/MQiM0KaZVCxyMzykonFJQaNLveWNv/NvhhdSMRzaNJKKhW783aKZ8P1LTaRisZvhJ689eQYTvYFULHfjr5jOSplgIapeKF3yZnjR1tLHPaktFYWfKDBFxI5jmLp3Q4sFsETR5GW4X4Kau9/Fb/y9MzrmqCkVy98MfxbuGKhXKH2IG3/X4Y4V/zr3cpCb4W/C/QKVpOIWbyyp3K5C3ZLUOavY6j8nav1uQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEPJf8Afb4kHHngA6ugAAAABJRU5ErkJggg==" alt="Twitter">
+        </a>
+        <!-- Email -->
+        <a href="mailto:info@example.com">
+            <img src="data:image/png;base64,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" alt="Email">
+        </a>
+    </div>
+<!--Footer-->
+<footer style="background-color:  rgb(88, 4, 4); padding: 20px; text-align: center; color: white;">
+    <div class="container">
+      <p style="margin-bottom: 5px;">Culture&Co</p>
+      <p style="margin-bottom: 5px;">123 Example Street, City</p>
+      <p style="margin-bottom: 0;">&copy; 2023 Culture&Co. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
